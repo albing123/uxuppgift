@@ -1,0 +1,116 @@
+.homeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  align-content: center;
+  margin: 0 auto;
+}
+
+#homeHeader {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  align-self: center;
+}
+
+#firstArticle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17px;
+}
+
+#firstArticle img {
+  z-index: -1;
+  margin-left: 35px;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#firstArticle button {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Bebas Neue", cursive;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px;
+
+  min-height: 30px;
+  min-width: 0;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+#firstArticle button:disabled {
+  pointer-events: none;
+}
+
+#firstArticle button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+#firstArticle button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+#secHeader {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+}
+
+.imageTextWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .imageTextWrapper img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .imageTextWrapper {
+    flex-direction: column;
+  }
+
+  .buttonWrapper {
+    flex-direction: column;
+  }
+
+  .homeWrapper {
+    width: 100%;
+  }
+
+  .homeWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+
+    margin: 0 auto;
+  }
+}
