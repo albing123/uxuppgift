@@ -21,19 +21,21 @@
   font-size: 17px;
 }
 
-iframe {
+video {
   margin-bottom: 25px;
+  align-self: center;
+  justify-self: center;
 }
 
 @media (max-width: 768px) {
-  iframe {
+  video {
     width: 350px;
     height: 315px;
   }
 }
 
 @media (max-width: 468px) {
-  iframe {
+  video {
     width: 250px;
     height: 315px;
   }

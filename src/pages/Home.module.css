@@ -93,6 +93,11 @@
     height: 150px;
   }
 
+  #secHeader {
+    align-self: center;
+    justify-self: center;
+  }
+
   .imageTextWrapper {
     flex-direction: column;
   }

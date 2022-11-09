@@ -8,9 +8,13 @@
   height: 10vh;
   display: flex;
   align-items: center;
-  justify-self: center;
   flex-direction: column;
-  margin-top: 20px;
+}
+
+.footerWrapper a {
+  color: inherit;
+  display: flex;
+  margin: 8px;
 }
 
 .footerWrapper p,

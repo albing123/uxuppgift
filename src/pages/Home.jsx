@@ -39,12 +39,12 @@ export default function Home() {
         <section className={styles.imageTextWrapper}>
           <p>
             We would like to make it easy for you as a sneakers lover to get
-            information
+            information about the latest news regarding sneakers and the sneaker
+            industry. in general. <br />
             <br />
-            about the latest news regarding sneakers and the sneaker industry in
-            general. The way we want to do this is by providing information here
-            at the website <br /> and also give you the opportunity to subscribe
-            to our newsletter.
+            The way we want to do this is by providing information here at the
+            website and also give you the opportunity to subscribe to our
+            newsletter.
           </p>
           <img src={image} alt={altText}></img>
         </section>

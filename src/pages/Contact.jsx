@@ -15,13 +15,13 @@ export default function Contact() {
           name="name"
           placeholder="Your name"
         ></input>
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">Number</label>
         <input
           required
-          type="text"
-          id="email"
-          name="email"
-          placeholder="Your email"
+          type="number"
+          id="number"
+          name="number"
+          placeholder="Your number"
         ></input>
         <label htmlFor="message">Message</label>
         <textarea
